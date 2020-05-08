@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.resume-contents h1 {
+  margin: 20px 0;
+  font-size: 30px;
+}
+.resume-content h2 {
+  margin: 15px 0;
+}
+.resume-content ul li {
+  list-style: none;
+}
+.resume-content .resume-contact li,
+.resume-content .resume-info li {
+  display: inline;
+}
+.resume-content ul :nth-child(odd) {
+  font-weight: bold;
+}
+.resume-content ul :nth-child(even) {
+  margin-right: 5em;
+  margin-bottom: 15px;
+}
